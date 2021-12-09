@@ -1,14 +1,14 @@
 {
-  "name": "adonis_api_app",
+  "name": "adonis-api-app",
   "version": "4.1.0",
   "engines": {
-    "node": "8.5.0"
+    "node": "16.*"
   },
   "adonis-version": "4.1.0",
   "description": "Adonisjs boilerplate for API server with pre-configured JWT",
   "main": "index.js",
   "scripts": {
-    "start": "server.js",
+    "start": "ENV_SILENT=true node ace server.js",
     "test": "node ace test"
   },
   "keywords": [
