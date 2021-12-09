@@ -8,7 +8,7 @@
   "description": "Adonisjs boilerplate for API server with pre-configured JWT",
   "main": "index.js",
   "scripts": {
-    "start": "ENV_SILENT=true node ace server.js",
+    "start": "server.js",
     "test": "node ace test"
   },
   "keywords": [
